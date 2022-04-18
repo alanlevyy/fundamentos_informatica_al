@@ -1,8 +1,8 @@
-class Animales():
+class Animal():
  def esta_feliz (self):
     return self.energia > 500
 
-class Golondrina (Animales):
+class Golondrina (Animal):
   def __init__(self, energia):
     self.energia = energia
 
@@ -21,7 +21,7 @@ class Golondrina (Animales):
  
      
 
-class Dragon(Animales):     
+class Dragon(Animal):     
   def __init__(self, cantidad_dientes, energia):
     self.energia = energia
     self.cantidad_dientes = cantidad_dientes
@@ -38,7 +38,33 @@ class Dragon(Animales):
   def volar(self, kms):
     self.energia -= 10 + kms/10
 
+class Entrenador:
+  """un entrrenador tiene un equipo y puede admititr nuevos animales a su equipo """
+  def __init__ (self, equipo):
+    self.equipo = equipo
+     
+  def el_equipo (self):
+    return self.equipo
+       
+  def agregar_animal (self, animal):
+    """Este metodo toma un objeto animal que tendra todos los atributos de esa clase """
+    self.equipo.append(animal)
+
+
+  def entrenar_dragon(self, dragon):
+    for i in range(20):
+      dragon.volar_en_circulos()
+    dragon.comer_peces(3)
+
+  def entrenar_equipo(self):
+    for dragon in self.equipo:
+      self.entrenar_dragon(dragon) 
+
 pepita = Golondrina(100)
 juanita = Golondrina (100)
 anastasia = Golondrina(200)
 roberta = Dragon(10, 1000)
+chimuelo = Dragon (200, 2000)
+
+hipo = Entrenador ([roberta])
+
