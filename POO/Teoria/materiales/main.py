@@ -47,7 +47,7 @@ from aves import pepita, anastasia, roberta
 # print (roberta.comer_peces(10))
 # print (roberta.energia)
 
-print (roberta.cantidad_dientes)
+# print (roberta.cantidad_dientes)
 
 # cada clase tiene su interfaz.
 # donde la interfaz es el conjubnto de mensajes que entiende
