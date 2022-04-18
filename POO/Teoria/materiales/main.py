@@ -1,4 +1,4 @@
-from aves import pepita, anastasia, roberta
+from aves import pepita, anastasia, roberta, juanita
 #cuando los objetos hacen o pueden hacer algo en ppio no tienen porque responder
 
 # print (pepita.volar_en_circulos())
@@ -52,4 +52,4 @@ from aves import pepita, anastasia, roberta
 # cada clase tiene su interfaz.
 # donde la interfaz es el conjubnto de mensajes que entiende
 
-
+print (pepita.esta_feliz())
