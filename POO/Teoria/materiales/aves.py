@@ -29,5 +29,6 @@ class Dragon:
     self.energia -= 10 + kms/10
 
 pepita = Golondrina(100)
+juanita = Golondrina (100)
 anastasia = Golondrina(200)
 roberta = Dragon(10, 1000)

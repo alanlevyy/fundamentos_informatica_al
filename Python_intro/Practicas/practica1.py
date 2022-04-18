@@ -25,9 +25,11 @@ from re import A
 
 
 ## ej5 
-programa = input ("dame un numero:") 
-programa1= input ("dame otro numero:") 
-programa2= input ("dame otro:")
+#programa = input ("dame un numero:") 
+#programa1= input ("dame otro numero:") 
+#programa2= input ("dame otro:")
 
-promedio= (int(programa) + int(programa1) + int(programa2)/3)
-print (promedio)
+#promedio= (int(programa) + int(programa1) + int(programa2)/3)
+# print (promedio)
+
+#ej6
