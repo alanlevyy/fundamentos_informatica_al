@@ -1,4 +1,5 @@
 
+from aves import Golondrina
 from aves import pepita, anastasia, roberta, juanita, chimuelo, hipo
 #cuando los objetos hacen o pueden hacer algo en ppio no tienen porque responder
 
@@ -57,12 +58,14 @@ from aves import pepita, anastasia, roberta, juanita, chimuelo, hipo
 
 ### Equipo 
 
-print (hipo)
-print (hipo.equipo)
-print (hipo.el_equipo())
+#print (hipo)
+#print (hipo.equipo)
+#print (hipo.el_equipo())
 
-print (hipo.agregar_animal(chimuelo))
+#print (hipo.agregar_animal(chimuelo))
 
-print (hipo.equipo)
+#print (hipo.equipo)
 
-print ("energia chimuelo",chimuelo.energia)
+# print ("energia chimuelo",chimuelo.energia)
+
+print (pepita.volar(11))

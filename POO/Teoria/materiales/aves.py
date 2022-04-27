@@ -14,6 +14,11 @@ class Golondrina (Animal):
 
   def volar(self, kms):
     self.energia -= 10 + kms
+    if self.energia <= 0:
+      print ("No puede volar")
+      print(self.energia)
+    else:
+      print ("tiene", self.energia, "de energía")  
 
   def esta_debil(self):
     return self.energia < 10   
