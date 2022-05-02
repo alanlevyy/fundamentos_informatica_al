@@ -63,14 +63,14 @@
 
 #calcular_cant_agua(40)
 
-from xml.dom.expatbuilder import ElementInfo
-
-
-pedido = {"Ana": "no_veggie", "Paul": "veggie", "Luz": "veggie"}
 
 
 
-lista_comensales = pedido.keys()
+#pedido = {"Ana": "no_veggie", "Paul": "veggie", "Luz": "veggie"}
+
+
+
+#lista_comensales = pedido.keys()
 
 #gustos = {"veggie": 0, "no_veggie": 0}
 
@@ -137,8 +137,14 @@ lista_comensales = pedido.keys()
 #print(gustos)    
 # 
 
-def mitades(numero):  
-   print(numero/2)
+#def mitades(numero):  
+ #  print(numero/2)
 
-mitades(9)   
+##mitades(9)   
+def divide(num1, num2):
+  try:
+      return print(num1/num2)
+  except ZeroDivisionError:
+    print ("no se puede dividir x 0")
 
+divide (8,0)
