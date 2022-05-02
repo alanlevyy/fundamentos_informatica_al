@@ -86,12 +86,6 @@ lista_comensales = pedido.keys()
 
 # repite el bucle en todas las partes del diccionario o lista 
 # la i esta recorriendo ami lista elemento x Elemento
-coleccion = {"ana": "veggie", "juan": "no veggie"}
-def señor ():
- for i in coleccion :
-   print ("gool")
-
-print (señor())
 
 
 # from tkinter import W
@@ -128,5 +122,23 @@ print (señor())
 #mitades(0)
 
 
+#pedido = {"Ana" : "no veggie", "Paul": "veggie", "Luz": "veggie"}
 
+#lista_comensales = pedido.keys()
+
+#def empanadas_por_gusto():
+   #for i in pedido:
+    #  print(pedido[i])
+
+#gustos = {"no veggie":0 , "veggie": 0}
+#for i in lista_comensales:
+ #     gustos[pedido[i]] +=1 
+
+#print(gustos)    
+# 
+
+def mitades(numero):  
+   print(numero/2)
+
+mitades(9)   
 
